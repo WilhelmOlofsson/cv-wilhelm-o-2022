@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(214, 235, 250);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.NavBar {
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.NavBar > a {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.tv-serier{
+    background: pink;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px -2px 12px 5px #A7A7A7;
+    margin-bottom: 45px;
+    margin-left: 75px;
+    margin-right: 75px;
+    display:inline-block;
+    padding-left:150px;
+}
+
+.tv-serie {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.tv-serier::after {
+    content: "";
+    clear: both;
+  }
+
+.header-1{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.wilhelm{
+    display: block;
+    margin-left: 400px;
+}
+
+.problem{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.list {
+    text-align: center;
+  }
+  
+.list-points {
+    display: inline-block;
+    text-align: left;
+  }
+
+.header-2{
+    text-align: center;
+}
